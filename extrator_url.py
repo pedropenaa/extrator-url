@@ -20,10 +20,9 @@ class ExtratorURl:
         return url_parametros
 
     @property
-    def valor_parametro(self, parametro_de_busca):
-        indice_parametro    = self.url_parametros.find(parametro_de_busca)
-        tamanho_parametro   = len(parametro_de_busca)
-        indice_valor        = indice_parametro + tamanho_parametro + 1
+    def valor_parametro(self, parametro_busca):
+        indice_parametro    = self.url_parametros.find(parametro_busca)
+        indice_valor        = indice_parametro + len(parametro_busca) + 1
         indice_e_comercial  = self.url_parametros.find("&", indice_valor)
 
         if indice_e_comercial == -1:
