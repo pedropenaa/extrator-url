@@ -7,15 +7,4 @@ extrator_url = ExtratorURl(url)
 valor_quantidade = extrator_url.valor_parametro("quantidade")
 valor_moedaOrigem = extrator_url.valor_parametro("moedaOrigem")
 print(valor_quantidade)
-
-
-
-
-
-
-
-
-
-
-
-
+print(valor_moedaOrigem)

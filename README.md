@@ -1,3 +1,3 @@
 # extrator-url
 
-Manipulçaõa de string: extraindo informações de uma url
+Manipulção de string: extraindo informações de uma url
