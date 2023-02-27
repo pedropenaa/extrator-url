@@ -1,6 +1,14 @@
 class ExtratorURl:
     def __init__(self, url):
-        self.url = url.strip()
+        self.url = url
+    
+    
+    def sanatiza(url):
+        if type(url) == str:
+            return url.strip
+        else:
+            return ""
+
 
 
     def valida_url(self):
