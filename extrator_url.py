@@ -2,7 +2,7 @@ class ExtratorURl:
     def __init__(self, url):
         self.url = url
     
-    
+
     def sanatiza(url):
         if type(url) == str:
             return url.strip
@@ -12,7 +12,7 @@ class ExtratorURl:
 
 
     def valida_url(self):
-        if self.url == "":
+        if not self.url:
             raise ValueError("A URL está vazia")
         
     @property
